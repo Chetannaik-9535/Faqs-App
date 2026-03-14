@@ -1,0 +1,53 @@
+/* Write your code here. */
+
+* {
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+  font-weight: bold;
+}
+
+body {
+  margin: 0px;
+}
+
+.Faqs-App-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.Faqs-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  background-color: #ffffff;
+  background-size: cover;
+  min-height: 80vh;
+  min-width: 80vw;
+  border-radius: 10px;
+}
+
+.heading {
+  font-family: monospace;
+  font-size: 60px;
+  color: #cb8805;
+  font-weight: bold;
+  font-style: italic;
+  margin: 18px;
+}
+
+.Faqs-items-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100%;
+  width: 90%;
+  border: 1px solid #d7dae6;
+  margin: 15px;
+  border-radius: 10px;
+}
